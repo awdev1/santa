@@ -1,0 +1,67 @@
+      html, body, canvas { margin: 0px; padding: 0px; user-select: none; overflow: hidden; }
+
+      * {
+        font-family: 'Mountains of Christmas';
+      }
+
+      .topbar {
+        position: absolute;
+        z-index: 100;
+
+        top: 0px;
+        left: 0px;
+
+        user-select: none;
+
+        font-size: 47px;
+        color: #fff;
+
+        width: 100%;
+        height: 60px;
+        background-color: rgba(17, 17, 17, 0.719);
+      }
+
+      button {
+        position: relative;
+        display: inline;
+
+        background-color: transparent;
+
+        height: 80%;
+        border-radius: 20px;
+
+        font-size: 0.4em;
+        color: #fff;
+
+        top: -12.5px; /* ??!?!?!? */
+
+        transition: background-color 0.3s;
+        outline: none;
+      }
+
+      #titleText {
+        position: relative;
+        display: inline;
+      }
+
+      #fileButton {
+        border: 2px solid red;
+      }
+
+      #fileButton:hover {
+        background-color: rgba(255, 0, 0, 0.3);
+      }
+      #fileButton:active {
+        background-color: rgba(255, 0, 0, 0.5);
+      }
+
+      #saveButton {
+        border: 2px solid green;
+      }
+
+      #saveButton:hover {
+        background-color: rgba(0, 255, 0, 0.3);
+      }
+      #saveButton:active {
+        background-color: rgba(0, 255, 0, 0.5);
+      }
