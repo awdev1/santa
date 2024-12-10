@@ -5,7 +5,7 @@ let img,
   scaling = -1,
   rotating = -1;
 
-const url = "santa/hat.png";
+const url = "https://awdev1.github.io/santa/hat.png";
 
 function preload() {
   santaHats.push({ x: windowWidth - 100, y: 150, scalex: 0.3, scaley: 0.3, rot: 0.3, image: loadImage(url) });
